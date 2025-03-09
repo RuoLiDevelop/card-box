@@ -1,0 +1,10 @@
+{
+  "name": "openrouter",
+  "version": "1.0.0",
+  "description": "OpenRouter API cloud function",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3",
+    "axios": "^1.6.2"
+  }
+}

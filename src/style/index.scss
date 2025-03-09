@@ -1,0 +1,21 @@
+// @import './iconfont.css';
+
+.test {
+  // 可以通过 @apply 多个样式封装整体样式
+  @apply mt-4 ml-4;
+
+  padding-top: 4px;
+  color: red;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 0px 6px -3px;
+}
+
+:root,
+page {
+  // 修改按主题色
+  --wot-color-theme: #6366f1;
+
+  // 修改按钮背景色
+  // --wot-button-primary-bg-color: green;
+}
