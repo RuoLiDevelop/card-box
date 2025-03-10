@@ -69,7 +69,7 @@
 
 - **前端框架**：[Vue 3](https://v3.vuejs.org/) + [TypeScript](https://www.typescriptlang.org/)
 - **跨端框架**：[uni-app](https://uniapp.dcloud.io/)
-- **构建工具**：[Vite 5](https://vitejs.dev/)
+- **项目模版**：[Unibest](https://www.unibest.tech/)
 - **CSS 框架**：[UnoCSS](https://github.com/unocss/unocss)
 - **UI 组件**：[wot-design-uni](https://github.com/Moonofweisheng/wot-desig-uni)
 - **后端服务**：微信云开发（数据库、云函数）
