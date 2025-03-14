@@ -166,10 +166,12 @@ VITE_WECHAT_SI_ID = 'xxx'
 
 > 注意：请确保云函数的权限配置正确，以便应用能够正常访问云资源。
 
-5. 在云开发控制台中，为云函数添加以下环境变量：
+5. 在云开发控制台中，为 `openrouter` 云函数添加以下环境变量：
 
    - `KEY` - OpenRouter 平台的 API Key，用于访问 AI 模型服务
      > 提示：你可以在 [OpenRouter](https://openrouter.ai/) 平台注册账号并获取 API Key
+
+同时建议将 `openrouter` 云函数的超时时间设置为 60s，以确保 AI 功能能够正常运行。
 
 ## 📄 开源协议
 
