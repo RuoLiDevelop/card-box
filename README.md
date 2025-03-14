@@ -135,6 +135,35 @@ VITE_WECHAT_SI_ID = 'xxx'
 }
 ```
 
+5. 在 `market-classification` 集合中添加分类数据，数据结构如下：
+
+```json
+{
+  "_id": "xxx", // 由系统生成
+  "title": "365 天英语口语" // 分类名称
+}
+```
+
+6. 在 `market` 集合中添加卡盒数据，数据结构如下：
+
+```json
+{
+  "_id": "xxx", // 由系统生成
+  "cards": [
+    {
+      "backContent": "卡片背面内容",
+      "frontContent": "卡片正面内容",
+      "index": 0
+    }
+  ],
+  "classification": "365 天英语口语", // 分类名称，对应market-classification 中的 title
+  "createTime": "Tue Jan 07 2025 14:42:10 GMT+0800 (中国标准时间)",
+  "description": "卡盒描述",
+  "labels": ["日常口语"], // 标签
+  "title": "卡盒标题"
+}
+```
+
 > 注意：请确保云函数的权限配置正确，以便应用能够正常访问云资源。
 
 5. 在云开发控制台中，为云函数添加以下环境变量：
